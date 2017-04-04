@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+SplashScreen-Image: resources/images/splashScreen.jpg
+Sealed: true
+Main-Class: it.menzani.yiupp.Yiupp

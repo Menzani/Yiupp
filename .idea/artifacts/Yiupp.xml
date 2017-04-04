@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Yiupp">
+    <output-path>$PROJECT_DIR$/out/artifacts/Yiupp</output-path>
+    <root id="archive" name="Yiupp-1.6.jar">
+      <element id="module-output" name="Yiupp" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

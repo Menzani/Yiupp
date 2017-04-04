@@ -1,0 +1,10 @@
+Impossibile avviare {NAME} a causa di un errore di configurazione
+
+Su Mac OS, si richiede all'utente di avviare l'applicazione con
+il seguente parametro per la Java Virtual Machine:
+
+    -XstartOnFirstThread
+
+Si prega quindi di eseguire il seguente comando dal Terminale:
+
+    java -XstartOnFirstThread -jar {JARFILE}

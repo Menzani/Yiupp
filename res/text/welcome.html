@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* @formatter:off */
+{STYLE}
+        /* @formatter:on */
+    </style>
+
+    <script type="text/javascript">
+        function performClick(buttonId) {
+            try {
+                runCommand(buttonId); // DJNativeSwing
+            } catch (err) {
+                commandRunner.runCommand(buttonId); // JavaFX WebView
+            }
+        }
+    </script>
+
+    <title>Presentazione</title>
+</head>
+<body>
+<h1>{NAME}</h1>
+<h3>{DESCRIPTION}</h3>
+<p>
+    {NAME} ti permette di verificare la sicurezza del tuo sito web attraverso una serie di attacchi mirati e
+    personalizzabili.
+</p>
+
+<h2>Come iniziare</h2>
+<ul>
+    <li>
+        Usa i pulsanti <span onclick="performClick('0')">Aggiungi</span>, <span
+            onclick="performClick('1')">Rimuovi</span> e <span onclick="performClick('2')">Gestisci</span> per importare
+        nuove liste e organizzare quelle esistenti.
+    </li>
+    <li>
+        Inserisci l'indirizzo del sito web da controllare nel riquadro in alto. Puoi anche sceglierne uno dalla lista
+        gi&agrave; usato in precedenza se vuoi renderlo ulteriormente pi&ugrave; sicuro.
+    </li>
+    <li>
+        Avvia la modalit&agrave; Avanzamento automatico, poi resta in attesa mentre {NAME} fa il lavoro duro al posto
+        tuo.
+    </li>
+</ul>
+
+<h2>Disclaimer</h2>
+<p>
+    Gli autori di questo software e delle componenti che lo compongono declinano ogni responsabilit&agrave; per
+    eventuali danni a persone o cose causati dal cattivo uso dello stesso.
+</p>
+</body>
+</html>

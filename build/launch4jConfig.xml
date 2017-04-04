@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>..\out\artifacts\Yiupp\Yiupp-1.6.jar</jar>
+  <outfile>..\out\natives\Yiupp\Yiupp-1.6.exe</outfile>
+  <errTitle>Yiupp</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://www.java.com/it/download/windows_xpi.jsp</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>..\res\icons\icon.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0_6</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.6.0.0</fileVersion>
+    <txtFileVersion>1.6</txtFileVersion>
+    <fileDescription>Advanced Security Interface</fileDescription>
+    <copyright>2017 Francesco Menzani</copyright>
+    <productVersion>1.6.0.0</productVersion>
+    <txtProductVersion>1.6</txtProductVersion>
+    <productName>Yiupp</productName>
+    <companyName>Francesco Menzani</companyName>
+    <internalName>Yiupp</internalName>
+    <originalFilename>Yiupp-1.6.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ITALIAN</language>
+  </versionInfo>
+  <messages>
+    <startupErr>Impossibile avviare Yiupp a causa di un errore imprevisto.</startupErr>
+    <bundledJreErr>Impossibile avviare Yiupp. La versione di Java inclusa nell&apos;applicazione è risultata malfunzionante.</bundledJreErr>
+    <jreVersionErr>È richiesto almeno Java</jreVersionErr>
+    <launcherErr>Impossibile avviare Yiupp. La versione di Java installata sul sistema è risultata malfunzionante.</launcherErr>
+    <instanceAlreadyExistsMsg>È consigliato concentrarsi su una sola finestra.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>

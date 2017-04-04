@@ -1,0 +1,11 @@
+Un errore imprevisto ha reso instabile {NAME},
+rendendone necessario l'arresto per la tua sicurezza.
+
+Le informazioni dettagliate sul problema sono state salvate
+e sono accessibili nel seguente file:
+
+{REPORT}
+
+Si invita a segnalare il problema agli sviluppatori al
+fine di migliorare l'esperienza degli utenti.
+Ci scusiamo per il disagio.
