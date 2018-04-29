@@ -17,7 +17,6 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.concurrent.TimeUnit;
 
 public class RegularLauncher implements Launcher {
 
@@ -39,13 +38,21 @@ public class RegularLauncher implements Launcher {
 
     @Override
     public void update() {
-        Yiupp.getInstance().getExecutorService().schedule(new UpdateHandler(), 1L, TimeUnit.SECONDS);
+        Thread thread = new Thread(new UpdateHandler());
+        thread.setDaemon(true);
+        thread.start();
     }
 
     private static final class UpdateHandler implements Runnable {
 
         @Override
         public void run() {
+            try {
+                Thread.sleep(1000L);
+            } catch (InterruptedException ex) {
+                throw new UncaughtException(ex);
+            }
+
             try {
                 URL remote = new URL("https://www.menzani.eu/yiupp/downloads/");
 

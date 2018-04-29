@@ -171,8 +171,6 @@ public class Window {
             throw new IllegalStateException("This method can only be invoked once");
         }
 
-        Yiupp.getInstance().getExecutorService().shutdown();
-
         Layout layout = DataFolder.getInstance().getLayout();
         layout.setWorkbenchSeparator(Yiupp.getWorkbench().getSeparatorLocation());
         int extendedState = frame.getExtendedState();

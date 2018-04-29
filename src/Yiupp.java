@@ -12,8 +12,6 @@ import it.menzani.yiupp.util.System;
 import javafx.embed.swing.JFXPanel;
 
 import javax.swing.*;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
 
 public final class Yiupp {
 
@@ -26,7 +24,6 @@ public final class Yiupp {
     public static final TemplateVariable BUILD_NUMBER = new TemplateVariable("build", "1.6.1");
 
     private static Yiupp instance;
-    private final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
     private Window window;
 
     private Yiupp() {
@@ -90,10 +87,6 @@ public final class Yiupp {
         if (defaultBrowser) {
             NativeInterface.runEventPump();
         }
-    }
-
-    public ScheduledExecutorService getExecutorService() {
-        return executorService;
     }
 
     public Window getWindow() {
