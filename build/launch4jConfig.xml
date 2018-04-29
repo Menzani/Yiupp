@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>..\out\artifacts\Yiupp\Yiupp-1.6.jar</jar>
-  <outfile>..\out\natives\Yiupp\Yiupp-1.6.exe</outfile>
+  <jar>..\out\artifacts\Yiupp\Yiupp-1.6.1.jar</jar>
+  <outfile>..\out\natives\Yiupp\Yiupp-1.6.1.exe</outfile>
   <errTitle>Yiupp</errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -24,16 +24,16 @@
     <runtimeBits>64/32</runtimeBits>
   </jre>
   <versionInfo>
-    <fileVersion>1.6.0.0</fileVersion>
-    <txtFileVersion>1.6</txtFileVersion>
+    <fileVersion>1.6.1.0</fileVersion>
+    <txtFileVersion>1.6.1</txtFileVersion>
     <fileDescription>Advanced Security Interface</fileDescription>
-    <copyright>2017 Francesco Menzani</copyright>
-    <productVersion>1.6.0.0</productVersion>
-    <txtProductVersion>1.6</txtProductVersion>
+    <copyright>2018 Francesco Menzani</copyright>
+    <productVersion>1.6.1.0</productVersion>
+    <txtProductVersion>1.6.1</txtProductVersion>
     <productName>Yiupp</productName>
     <companyName>Francesco Menzani</companyName>
     <internalName>Yiupp</internalName>
-    <originalFilename>Yiupp-1.6.exe</originalFilename>
+    <originalFilename>Yiupp-1.6.1.exe</originalFilename>
     <trademarks></trademarks>
     <language>ITALIAN</language>
   </versionInfo>

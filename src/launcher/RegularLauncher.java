@@ -47,7 +47,7 @@ public class RegularLauncher implements Launcher {
         @Override
         public void run() {
             try {
-                URL remote = new URL("http://frenci2012.altervista.org/yiupp/");
+                URL remote = new URL("https://www.menzani.eu/yiupp/downloads/");
 
                 URL remoteInformation = new URL(remote, "versions.json");
                 VersionInformation information;

@@ -23,7 +23,7 @@ public final class Yiupp {
             new TemplateVariable("description", "Advanced Security Interface");
 
     // When updated, change these too: launch4jConfig.xml, Project Structure > Artifacts > Yiupp > Output Layout
-    public static final TemplateVariable BUILD_NUMBER = new TemplateVariable("build", 1.6);
+    public static final TemplateVariable BUILD_NUMBER = new TemplateVariable("build", "1.6.1");
 
     private static Yiupp instance;
     private final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();

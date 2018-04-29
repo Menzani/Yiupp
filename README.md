@@ -8,10 +8,6 @@ Yiupp include le seguenti funzionalità disponibili gratuitamente:
  - Il pacchetto delle liste di base, che fornisce il supporto necessario a portare a termine i tuoi
  attacchi
 
-## Download
-
-Visita il [sito web del prodotto](http://frenci2012.altervista.org/yiupp/).
-
 ## Disclaimer
 
 Gli autori di questo software e delle componenti che lo compongono declinano ogni responsabilità per
